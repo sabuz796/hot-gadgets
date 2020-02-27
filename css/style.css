@@ -21,10 +21,36 @@
   margin-top: 100px;
 }
 .buy-now-button{
-  background-image: linear-gradient(to bottom, #30475e 0%, #1b262c 100%);
+  /* background-image: linear-gradient(to bottom, #30475e 0%, #1b262c 100%); */
   color: white;
   border: none;
   border-radius: 8px;
   padding: 9px 25px;
   cursor: pointer;
+  background: black;
+}
+
+.carousel-indicators .active {
+    width: 45px;
+    height: 10px;
+    /* border: 5px solid black; */
+    background-image: linear-gradient(45deg, #FF9C35, #FFD019);
+}
+.carousel-indicators li{
+  border-radius: 50px;
+  width: 20px;
+  height: 8px;
+  background-color: lightgrey;
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+
+}
+.categories img{
+  width: 100%;
+}
+.card-d{
+  padding: 50px 60px;
+}
+.bag-card{
+  padding: 50px 60px;
 }
