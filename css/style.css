@@ -60,12 +60,16 @@
 .cat-section h2{
 	margin-bottom: 100px;
 
-
 }
 .span{
 	border-bottom: 5px solid #ff9c35;
 	padding-bottom: 8px;
 }
+
+.smart-phone, .laptop{
+	color: black;
+}
+
 
 .cat {
 	background: #ffff;
